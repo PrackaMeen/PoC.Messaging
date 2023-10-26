@@ -1,0 +1,14 @@
+C:\repos\PoC.Messaging\PoC.Messaging.Client\bin\Debug\net8.0\PoC.Messaging.Client.exe
+C:\repos\PoC.Messaging\PoC.Messaging.Client\bin\Debug\net8.0\PoC.Messaging.Client.deps.json
+C:\repos\PoC.Messaging\PoC.Messaging.Client\bin\Debug\net8.0\PoC.Messaging.Client.runtimeconfig.json
+C:\repos\PoC.Messaging\PoC.Messaging.Client\bin\Debug\net8.0\PoC.Messaging.Client.dll
+C:\repos\PoC.Messaging\PoC.Messaging.Client\bin\Debug\net8.0\PoC.Messaging.Client.pdb
+C:\repos\PoC.Messaging\PoC.Messaging.Client\obj\Debug\net8.0\PoC.Messaging.Client.GeneratedMSBuildEditorConfig.editorconfig
+C:\repos\PoC.Messaging\PoC.Messaging.Client\obj\Debug\net8.0\PoC.Messaging.Client.AssemblyInfoInputs.cache
+C:\repos\PoC.Messaging\PoC.Messaging.Client\obj\Debug\net8.0\PoC.Messaging.Client.AssemblyInfo.cs
+C:\repos\PoC.Messaging\PoC.Messaging.Client\obj\Debug\net8.0\PoC.Messaging.Client.csproj.CoreCompileInputs.cache
+C:\repos\PoC.Messaging\PoC.Messaging.Client\obj\Debug\net8.0\PoC.Messaging.Client.dll
+C:\repos\PoC.Messaging\PoC.Messaging.Client\obj\Debug\net8.0\refint\PoC.Messaging.Client.dll
+C:\repos\PoC.Messaging\PoC.Messaging.Client\obj\Debug\net8.0\PoC.Messaging.Client.pdb
+C:\repos\PoC.Messaging\PoC.Messaging.Client\obj\Debug\net8.0\PoC.Messaging.Client.genruntimeconfig.cache
+C:\repos\PoC.Messaging\PoC.Messaging.Client\obj\Debug\net8.0\ref\PoC.Messaging.Client.dll

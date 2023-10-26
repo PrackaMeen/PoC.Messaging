@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "xPTtEJ/QCdwJRagCmz9YpwKjnaFiARGQERgh5x/Pq5g=",
+  "Source": "PoC.Messaging.Server",
+  "BasePath": "_content/PoC.Messaging.Server",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
