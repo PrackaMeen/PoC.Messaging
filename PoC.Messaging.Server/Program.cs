@@ -1,3 +1,4 @@
+using PoC.Messaging.Server.Hubs;
 
 namespace PoC.Messaging.Server
 {
@@ -13,6 +14,7 @@ namespace PoC.Messaging.Server
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
+            builder.Services.AddSignalR();
 
             var app = builder.Build();
 
@@ -29,6 +31,18 @@ namespace PoC.Messaging.Server
 
 
             app.MapControllers();
+            app.MapHub<ChatHub>("/hub");
+
+            app.UseCors((settings) =>
+            {
+                settings.AllowCredentials();
+                settings.AllowAnyHeader();
+                settings.AllowAnyMethod();
+                settings.SetIsOriginAllowed((_) =>
+                {
+                    return true;
+                });
+            });
 
             app.Run();
         }
