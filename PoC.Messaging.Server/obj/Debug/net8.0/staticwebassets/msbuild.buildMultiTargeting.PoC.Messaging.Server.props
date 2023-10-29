@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\build\PoC.Messaging.Server.props" />
-</Project>

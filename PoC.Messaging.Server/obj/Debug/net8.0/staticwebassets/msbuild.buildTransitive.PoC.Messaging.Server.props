@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\buildMultiTargeting\PoC.Messaging.Server.props" />
-</Project>
