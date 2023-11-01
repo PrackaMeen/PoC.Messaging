@@ -1,4 +1,6 @@
 using PoC.Messaging.Server.Hubs;
+using PoC.Messaging.Server.Models;
+using PoC.Repositories.StorageAccounts;
 
 namespace PoC.Messaging.Server
 {
@@ -15,6 +17,13 @@ namespace PoC.Messaging.Server
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
             builder.Services.AddSignalR();
+
+            builder.Services.AddScoped<IQueueConnector, QueueConnector>();
+
+            builder.Services.AddAutoMapper(cfg =>
+            {
+                cfg.CreateMap<QueueMessage, QueueMessageDTO>();
+            });
 
             var app = builder.Build();
 
