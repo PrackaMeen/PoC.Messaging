@@ -63,7 +63,7 @@ namespace PoC.Messaging.Server.Controllers
                 await _queueConnector.AddMessageAsync(new QueueMessage()
                 {
                     Text = message,
-                    UserName = name,
+                    ToUserName = name,
                 });
 
                 return true;

@@ -7,14 +7,18 @@ namespace PoC.Messaging.Server.Models
         [JsonPropertyName("t")]
         public string Text { get; set; } = "";
 
-        [JsonPropertyName("u")]
-        public string UserName { get; set; } = "";
+        [JsonPropertyName("fu")]
+        public string FromUserName { get; set; } = "";
+
+        [JsonPropertyName("tu")]
+        public string ToUserName { get; set; } = "";
     }
 
     public class QueueMessageDTO
     {
         public string Text { get; set; } = "";
-        public string UserName { get; set; } = "";
+        public string FromUserName { get; set; } = "";
+        public string ToUserName { get; set; } = "";
 
         public static QueueMessageDTO Empty => new();
     }

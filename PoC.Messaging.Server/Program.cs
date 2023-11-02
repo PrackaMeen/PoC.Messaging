@@ -1,3 +1,4 @@
+using PoC.Messaging.Server.Controllers;
 using PoC.Messaging.Server.Hubs;
 using PoC.Messaging.Server.Models;
 using PoC.Repositories.StorageAccounts;
@@ -19,6 +20,7 @@ namespace PoC.Messaging.Server
             builder.Services.AddSignalR();
 
             builder.Services.AddScoped<IQueueConnector, QueueConnector>();
+            builder.Services.AddScoped<ITableConnector<User>, TableConnector<User>>();
 
             builder.Services.AddAutoMapper(cfg =>
             {
